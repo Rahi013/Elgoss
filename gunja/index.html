@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <form name="registrationForm">
+            <h1>Registration Form</h1>
+
+            <label>Firstname</label>
+            <input type="text" name="firstname" id="f_name" /> <br> <br>
+
+            <label>Middlename</label>
+            <input type="text" name="middlename"id="m_name" /> <br> <br>
+
+            <label>Lastname</label>
+            <input type="text" name="lastname" id="l_name"/> <br> <br>
+
+            <label class="gender">Gender:
+                <input type="radio" value="male" name="gender" id="male" /> Male
+                <input type="radio" value="female" name="gender" id="female" /> Female
+                <input type="radio" value="other" name="gender" id="other" /> Other
+            </label> <br> <br>
+
+            <label>Phone:
+                <input type="text" id="phone" size="9" /> <br> <br>
+            </label>
+
+            <label>Email:
+                <input type="email" id="email" name="email" /> <br> <br>
+            </label>
+
+            <input type="button" onclick="validateForm()" value="Submit" />
+        </form>
+    </center>
+
+    <!-- Corrected the script tag -->
+    
+</body>
+
+<script src="script.js"></script>
+</html>
